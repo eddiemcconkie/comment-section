@@ -1,0 +1,23 @@
+@use 'theme' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: $font-stack;
+  background-color: $very-light-gray;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $dark-blue;
+  text-align: center;
+}
